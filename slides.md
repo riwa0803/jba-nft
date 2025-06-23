@@ -109,6 +109,9 @@ NFTの現在地、バブルと詐欺の実態
 
 # NFTの範囲
 
+<div class="two-columns">
+<div class="left-column">
+
 ### 3つのレイヤー
 
 1. **デジタルトークン**
@@ -121,6 +124,14 @@ NFTの現在地、バブルと詐欺の実態
    画像まで含めた全体
 
 **技術的にはレイヤー1のみがNFT**
+
+</div>
+<div class="right-column">
+
+![width:100%](image.png)
+
+</div>
+</div>
 
 ---
 
