@@ -26,6 +26,21 @@ style: |
   h1 {
     margin-top: 0;
   }
+  .two-columns {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    height: 100%;
+  }
+  .left-column {
+    flex: 1;
+  }
+  .right-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 ---
 
 <!-- _paginate: false -->
@@ -94,18 +109,29 @@ NFTの現在地、バブルと詐欺の実態
 
 # NFTの範囲
 
+<div class="two-columns">
+<div class="left-column">
+
 ### 3つのレイヤー
 
 1. **デジタルトークン**
-   - チェーン+コントラクトアドレス+トークンID
+   チェーン+コントラクトアドレス+トークンID
 
 2. **デジタルトークン + Metadata.json**
-   - トークン情報と属性データ
+   トークン情報と属性データ
 
 3. **デジタルトークン + Metadata.json + Image**
-   - 画像まで含めた全体
+   画像まで含めた全体
 
 **技術的にはレイヤー1のみがNFT**
+
+</div>
+<div class="right-column">
+
+![width:100%](nft-3-layer-diagram.svg)
+
+</div>
+</div>
 
 ---
 
@@ -152,13 +178,27 @@ NFTの現在地、バブルと詐欺の実態
 
 ### 検索トレンドも低下
 
+<div class="two-columns">
+<div class="left-column">
+
 - 2022年1月をピークに90%以上減少
 - 一般的な関心は薄れている
 - しかし技術開発は継続中
 
+</div>
+<div class="right-column">
+
+![width:100%](nft-search-trends.png)
+
+</div>
+</div>
+
 ---
 
 # NFTの歴史と具体的事例1：バブル
+
+<div class="two-columns">
+<div class="left-column">
 
 ### バブルのピークと崩壊
 - **2021年8月**: 月間約3,650億円（ピーク）
@@ -168,23 +208,46 @@ NFTの現在地、バブルと詐欺の実態
 ### 教訓
 **バブルは終わった。しかし技術は残った**
 
+</div>
+<div class="right-column">
+
+![width:100%](nft-trade-volume-by-chain.png)
+
+</div>
+</div>
+
 ---
 
 # NFTの歴史と具体的事例2：高額NFT
+
+<div class="two-columns">
+<div class="left-column">
 
 ### ジャック・ドーシーの初ツイート
 - 落札額：約3.2億円
 - "just setting up my twttr"
 - 現在の価値：ほぼ無価値
 
-### CryptoPunks
-- 最高額：約27億円（#5822）
+### CryptoPunks #5822
+- 最高額：約27億円
 - 2017年無料配布→億単位の取引へ
 - Web3の象徴的存在
+
+</div>
+<div class="right-column">
+
+![width:100%](jack-dorsey-first-tweet.png)
+![width:100%](cryptopunks-5822.png)
+
+</div>
+</div>
 
 ---
 
 # 偽物・詐欺の実態と対策
+
+<div class="two-columns">
+<div class="left-column">
 
 ### 偽物NFTの手口
 - 人気プロジェクトの画像をコピー
@@ -194,14 +257,18 @@ NFTの現在地、バブルと詐欺の実態
 - 「ラストメモリーズ」NFTに偽物出現
 - 公式と同じ画像・名前だが別コントラクト
 
-### どんな偽物を作れるか？
-**パターン1**: 同じチェーンで違うコントラクトアドレス、全く同じMetadata
-**パターン2**: 違うチェーンで同じコントラクトアドレス、全く同じMetadata
-
 ### 見分け方と対策
 - **「チェーン+コントラクトアドレス+トークンID」を確認**
 - **公式アカウントから購入**
 - **異常に安い価格は要注意**
+
+</div>
+<div class="right-column">
+
+![width:100%](last-memories-nft.png)
+
+</div>
+</div>
 
 ---
 
@@ -266,6 +333,9 @@ NFTの現在地、バブルと詐欺の実態
 
 # 現在のメジャーユースケース2：Courtyard
 
+<div class="two-columns">
+<div class="left-column">
+
 ### 概要
 スニーカーやトレカなど高額コレクタブルをNFT化して安全に取引
 
@@ -274,9 +344,25 @@ NFTの現在地、バブルと詐欺の実態
 2. **取引**: NFTの売買で所有権が即座に移転
 3. **交換**: いつでもNFTと現物を交換可能
 
+### 価値
+- **偽物リスクゼロ**（専門家鑑定済み）
+- **即時取引**（物理配送不要）
+- **保管不要**（プロ管理の倉庫）
+
+</div>
+<div class="right-column">
+
+![width:100%](courtyard-pokemon-card.png)
+
+</div>
+</div>
+
 ---
 
 # 現在のメジャーユースケース3：TripleS
+
+<div class="two-columns">
+<div class="left-column">
 
 ### 概要
 ファンがNFTを通じてアイドルグループの活動に直接参加
@@ -285,6 +371,19 @@ NFTの現在地、バブルと詐欺の実態
 - **Objekts**: メンバーのフォトカードNFT
 - **COMO**: ガバナンストークン機能
 - **投票権**: メンバー選抜、楽曲選択、活動方針
+
+### 価値
+- デジタルフォトカードの真正性証明
+- ファンが運営に参加できる新体験
+- グローバルファンコミュニティ形成
+
+</div>
+<div class="right-column">
+
+![width:100%](triples-como-stats.png)
+
+</div>
+</div>
 
 
 ---
