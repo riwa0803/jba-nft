@@ -109,9 +109,6 @@ NFTの現在地、バブルと詐欺の実態
 
 # NFTの範囲
 
-<div class="two-columns">
-<div class="left-column">
-
 ### 3つのレイヤー
 
 1. **デジタルトークン**
@@ -124,14 +121,6 @@ NFTの現在地、バブルと詐欺の実態
    画像まで含めた全体
 
 **技術的にはレイヤー1のみがNFT**
-
-</div>
-<div class="right-column">
-
-![width:100%](nft-3-layer-diagram.svg)
-
-</div>
-</div>
 
 ---
 
@@ -170,6 +159,9 @@ NFTの現在地、バブルと詐欺の実態
 
 # NFTの現在地
 
+<div class="two-columns">
+<div class="left-column">
+
 ### 現在の位置：**幻滅期**
 
 - ピーク時の過度な期待が崩壊
@@ -178,15 +170,14 @@ NFTの現在地、バブルと詐欺の実態
 
 ### 検索トレンドも低下
 
-<div class="two-columns">
-<div class="left-column">
-
 - 2022年1月をピークに90%以上減少
 - 一般的な関心は薄れている
 - しかし技術開発は継続中
 
 </div>
 <div class="right-column">
+
+![width:100%](gartnar-japan-infra-hype.png)
 
 ![width:100%](nft-search-trends.png)
 
@@ -390,6 +381,9 @@ NFTの現在地、バブルと詐欺の実態
 
 # 現在のメジャーユースケース4：DeFiポジション
 
+<div class="two-columns">
+<div class="left-column">
+
 ### UniswapやAerodromeの事例
 - 流動性提供ポジションをNFT化
 - ポジション情報をMetadataに記載
@@ -399,6 +393,14 @@ NFTの現在地、バブルと詐欺の実態
 - 1年間引き出せないデポジットをNFT化
 - そのNFTをディスカウントで取引
 - 流動性ニーズと長期保有ニーズのマッチング
+
+</div>
+<div class="right-column">
+
+![width:100%](nft-3-layer-diagram.svg)
+
+</div>
+</div>
 
 ---
 
