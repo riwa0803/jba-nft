@@ -39,7 +39,76 @@ style: |
     flex: 1;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+  }
+  .float-right {
+    float: right;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+  }
+  .image-container {
+    float: right;
+    width: 45%;
+    margin-left: 2rem;
+  }
+  .image-container img {
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+  }
+  .image-container-responsive {
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
     justify-content: center;
+    margin: 0 auto 1rem auto;
+  }
+  .image-container-responsive img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .fixed-image-container {
+    position: relative;
+    width: 100%;
+    height: 720px;
+  }
+  .image-box {
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    overflow: hidden;
+    background: #f0f0f0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .image-box:nth-child(1) {
+    top: 60px;
+  }
+  .image-box:nth-child(2) {
+    top: 390px;
+  }
+  .image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .image-container-fixed {
+    width: 600px;
+    height: 240px;
+    overflow: hidden;
+    margin: 0 auto 1rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .image-container-fixed img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
   }
 ---
 
@@ -53,11 +122,30 @@ style: |
 
 # 自己紹介
 
-- **大学**: [大学名を入力]
-- **職歴**: [職歴を入力]
-- **NFT/Web3経験**: 
-  - ユーザーとしての歴: [年数を入力]
-  - 関連プロジェクト: [プロジェクト名を入力]
+<div class="two-columns">
+<div class="left-column">
+
+<div class="image-container-fixed">
+<img src="profile-kawanaka.jpg" alt="Profile Photo">
+</div>
+
+</div>
+<div class="right-column">
+
+## double jump.tokyo 株式会社
+# 岩崎 理久郎 
+
+### 主な経歴
+**2018** The University of Auckland卒業
+
+**2019** 株式会社 Branding Engineer 入社
+
+**2021** double jump.tokyo 株式会社 入社
+
+### ユーザーとしては2018年から活動
+
+</div>
+</div>
 
 ---
 
@@ -128,7 +216,10 @@ NFTの現在地、バブルと詐欺の実態
 </div>
 <div class="right-column">
 
-![width:100%](image.png)
+<div class="image-container-fixed">
+<!-- ![width:100%](image.png) -->
+<img src="image.png" alt="NFT Structure">
+</div>
 
 </div>
 </div>
@@ -188,9 +279,15 @@ NFTの現在地、バブルと詐欺の実態
 </div>
 <div class="right-column">
 
-![width:100%](gartnar-japan-infra-hype.png)
+<div class="image-container-fixed">
+<!-- ![width:100%](gartnar-japan-infra-hype.png) -->
+<img src="gartnar-japan-infra-hype.png" alt="Gartner Hype Cycle">
+</div>
 
-![width:100%](nft-search-trends.png)
+<div class="image-container-fixed">
+<!-- ![width:100%](nft-search-trends.png) -->
+<img src="nft-search-trends.png" alt="NFT Search Trends">
+</div>
 
 </div>
 </div>
@@ -213,7 +310,10 @@ NFTの現在地、バブルと詐欺の実態
 </div>
 <div class="right-column">
 
-![width:100%](nft-trade-volume-by-chain.png)
+<div class="image-container-fixed">
+<!-- ![width:100%](nft-trade-volume-by-chain.png) -->
+<img src="nft-trade-volume-by-chain.png" alt="NFT Trade Volume">
+</div>
 
 </div>
 </div>
@@ -238,15 +338,22 @@ NFTの現在地、バブルと詐欺の実態
 </div>
 <div class="right-column">
 
-![width:100%](jack-dorsey-first-tweet.png)
-![width:100%](cryptopunks-5822.png)
+<div class="image-container-fixed">
+<!-- ![width:100%](jack-dorsey-first-tweet.png) -->
+<img src="jack-dorsey-first-tweet.png" alt="Jack Dorsey Tweet">
+</div>
+
+<div class="image-container-fixed">
+<!-- ![width:100%](cryptopunks-5822.png) -->
+<img src="cryptopunks-5822.png" alt="CryptoPunks">
+</div>
 
 </div>
 </div>
 
 ---
 
-# 偽物・詐欺の実態と対策
+# 偽物・詐欺の事例
 
 <div class="two-columns">
 <div class="left-column">
@@ -259,15 +366,13 @@ NFTの現在地、バブルと詐欺の実態
 - 「ラストメモリーズ」NFTに偽物出現
 - 公式と同じ画像・名前だが別コントラクト
 
-### 見分け方と対策
-- **「チェーン+コントラクトアドレス+トークンID」を確認**
-- **公式アカウントから購入**
-- **異常に安い価格は要注意**
-
 </div>
 <div class="right-column">
 
-![width:100%](last-memories-nft.png)
+<div class="image-container-fixed">
+<!-- ![width:100%](last-memories-nft.png) -->
+<img src="last-memories-nft.png" alt="Last Memories NFT">
+</div>
 
 </div>
 </div>
@@ -346,15 +451,13 @@ NFTの現在地、バブルと詐欺の実態
 2. **取引**: NFTの売買で所有権が即座に移転
 3. **交換**: いつでもNFTと現物を交換可能
 
-### 価値
-- **偽物リスクゼロ**（専門家鑑定済み）
-- **即時取引**（物理配送不要）
-- **保管不要**（プロ管理の倉庫）
-
 </div>
 <div class="right-column">
 
-![width:100%](courtyard-pokemon-card.png)
+<div class="image-container-fixed">
+<!-- ![width:100%](courtyard-pokemon-card.png) -->
+<img src="courtyard-pokemon-card.png" alt="Courtyard Pokemon Card">
+</div>
 
 </div>
 </div>
@@ -374,15 +477,13 @@ NFTの現在地、バブルと詐欺の実態
 - **COMO**: ガバナンストークン機能
 - **投票権**: メンバー選抜、楽曲選択、活動方針
 
-### 価値
-- デジタルフォトカードの真正性証明
-- ファンが運営に参加できる新体験
-- グローバルファンコミュニティ形成
-
 </div>
 <div class="right-column">
 
-![width:100%](triples-como-stats.png)
+<div class="image-container-fixed">
+<!-- ![width:100%](triples-como-stats.png) -->
+<img src="triples-como-stats.png" alt="TripleS COMO Stats">
+</div>
 
 </div>
 </div>
@@ -403,12 +504,14 @@ NFTの現在地、バブルと詐欺の実態
 ### 想定できる使い方
 - 1年間引き出せないデポジットをNFT化
 - そのNFTをディスカウントで取引
-- 流動性ニーズと長期保有ニーズのマッチング
 
 </div>
 <div class="right-column">
 
-![width:100%](nft-3-layer-diagram.svg)
+<div class="image-container-fixed">
+<!-- ![width:100%](nft-3-layer-diagram.svg) -->
+<img src="nft-3-layer-diagram.svg" alt="Uniswap Position NFT">
+</div>
 
 </div>
 </div>
@@ -436,6 +539,40 @@ NFTの現在地、バブルと詐欺の実態
 
 ---
 
+# Metadata.jsonはOpenSeaスタンダードを使うのが一般的
+
+<div class="two-columns">
+<div class="left-column">
+
+### OpenSea Metadata Standard
+- NFTマーケットプレイスのデファクトスタンダード
+- 多くのプラットフォームで対応
+
+### 重要性
+- **相互運用性**: 複数のプラットフォームで表示可能
+- **標準化**: 統一されたデータ形式
+
+</div>
+<div class="right-column">
+
+### 基本的な構造
+```json
+{
+  "name": "My NFT",
+  "description": "This is my NFT",
+  "image": "https://example.com/image.png",
+  "attributes": [
+    {"trait_type": "Color", "value": "Blue"},
+    {"trait_type": "Rarity", "value": "Common"}
+  ]
+}
+```
+
+</div>
+</div>
+
+---
+
 # NFTの作り方
 
 1. **チェーン選択**: Ethereum、Polygon等
@@ -448,6 +585,8 @@ NFTの現在地、バブルと詐欺の実態
 - 条件付き転送
 
 ---
+
+<!-- _class: lead -->
 
 # よく言われることと反論
 
@@ -540,16 +679,34 @@ NFTの現在地、バブルと詐欺の実態
 
 # まとめ
 
-## NFTの真実
+## NFTについて伝えたかったこと
 
-1. **NFTは技術**であり、投機対象ではない
-2. **価値は文脈**が生み出す
-3. **実用化は着実に進行中**
-4. **技術的理解**が重要
+### 技術の正確な理解が必要
+- 「偽物ができる」は誤解
+- オンチェーンレベルでは改ざん不可能
 
-## 今後の展望
-- ゲーム、DeFiでの更なる活用
-- 新たなユースケースの登場
-- 規制整備による健全な市場形成
+### 価値は使い方で決まる
+- 単なるJPEGではなく、活用方法が重要
+- ゲーム、会員権、DeFiなど多様な用途
 
-**技術の本質を理解し、適切に活用することが重要**
+
+---
+
+<!-- _class: lead -->
+
+# ワークショップ
+
+---
+
+# ThirdwebでNFTを発行してみよう
+
+### 実際にNFTを発行する体験をしてみましょう
+
+- **Thirdweb**: Web3開発プラットフォーム
+- **ノーコード**: プログラミング不要でNFTコレクション作成
+- **体験**: NFTの技術的な仕組みを実感
+
+### 今日学んだ内容の実践
+- チェーン+コントラクト+トークンIDの確認
+- オンチェーンとオフチェーンデータの理解
+- ERC721規格の実際の動作
