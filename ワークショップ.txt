@@ -1,0 +1,20 @@
+MetaMaskでThirdwebにログイン
+https://thirdweb.com/login
+
+アカウントを作成
+
+プロジェクト作成
+
+コントラクトデプロイに進む
+
+「NFT Collection」を選択
+
+Sepoliaを選択してデプロイ
+
+チェックリストに従ってNFTをMint
+
+画像入れておくのがおすすめ
+
+MintしたNFTはOpenSeaのTestnetサイトでも表示される
+https://testnets.opensea.io/ja
+送付、販売もできます
