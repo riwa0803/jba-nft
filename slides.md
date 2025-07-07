@@ -110,6 +110,194 @@ style: |
     height: 100%;
     object-fit: contain;
   }
+  
+  /* 章タイトルデザイン候補 */
+  
+  /* 候補1: プログレスバー付き */
+  .chapter-progress {
+    justify-content: center !important;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+  }
+  .progress-container {
+    width: 80%;
+    margin: 2rem auto;
+  }
+  .progress-bar {
+    width: 100%;
+    height: 8px;
+    background: rgba(255,255,255,0.3);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .progress-fill {
+    height: 100%;
+    background: white;
+    border-radius: 4px;
+    transition: width 0.3s ease;
+  }
+  .chapter-number {
+    font-size: 1.2em;
+    opacity: 0.9;
+    margin-bottom: 1rem;
+  }
+  
+  /* 候補2: カード形式 */
+  .chapter-cards {
+    justify-content: flex-start !important;
+    background: #f8f9fa;
+    color: #333;
+  }
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+  }
+  .chapter-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+    min-width: 150px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border: 2px solid transparent;
+  }
+  .chapter-card.current {
+    border-color: #667eea;
+    background: #667eea;
+    color: white;
+  }
+  .card-icon {
+    font-size: 2em;
+    margin-bottom: 0.5rem;
+  }
+  .card-title {
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+  
+  /* 候補3: ミニマル - シンプル版 */
+  .chapter-minimal {
+    justify-content: center !important;
+    background: #ffffff;
+    color: #2c3e50;
+  }
+  .chapter-minimal h1 {
+    font-size: 3.5em;
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+  }
+  .chapter-number-large {
+    font-size: 8rem;
+    font-weight: 100;
+    color: rgba(44, 62, 80, 0.1);
+    line-height: 0.8;
+    margin-bottom: 1rem;
+  }
+  .chapter-subtitle {
+    font-size: 1.2em;
+    opacity: 0.7;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .chapter-toc-inline {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+  .toc-item-inline {
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    border: 2px solid transparent;
+    text-align: center;
+    min-width: 100px;
+  }
+  .toc-item-inline.current {
+    background: #3498db;
+    color: white;
+    border-color: #2980b9;
+    font-weight: 500;
+  }
+  .toc-number {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+  }
+  .toc-title-small {
+    font-size: 0.8rem;
+  }
+  
+  /* 候補4: 左右分割デザイン */
+  .chapter-split {
+    justify-content: flex-start !important;
+    background: #ecf0f1;
+    color: #2c3e50;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+  }
+  .split-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #3498db;
+    color: white;
+    height: 100vh;
+    font-size: 10rem;
+    font-weight: 100;
+  }
+  .split-right {
+    flex: 2;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .split-right h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 300;
+  }
+  .split-right p {
+    font-size: 1.3rem;
+    opacity: 0.8;
+    line-height: 1.6;
+  }
+  
+  /* 候補5: ドット形式 */
+  .chapter-dots {
+    justify-content: center !important;
+    background: #34495e;
+    color: white;
+  }
+  .dots-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0 3rem 0;
+  }
+  .chapter-dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.3);
+  }
+  .chapter-dot.current {
+    background: #3498db;
+    box-shadow: 0 0 20px rgba(52,152,219,0.8);
+  }
+  .chapter-dots h1 {
+    font-size: 3em;
+    font-weight: 300;
+    margin-bottom: 1rem;
+  }
 ---
 
 <!-- _paginate: false -->
@@ -164,9 +352,36 @@ NFTの現在地、バブルと詐欺の実態
 
 ---
 
-<!-- _class: lead -->
+<!-- _class: chapter-minimal -->
 
-# 第1部：基礎理解
+<div class="chapter-number-large">01</div>
+
+# 基礎理解
+
+<div class="chapter-subtitle">NFTとは何か、どう捉えるべきか</div>
+
+<div class="chapter-toc-inline">
+<div class="toc-item-inline current">
+<span class="toc-number">01</span>
+<span class="toc-title-small">基礎理解</span>
+</div>
+<div class="toc-item-inline">
+<span class="toc-number">02</span>
+<span class="toc-title-small">現状と歴史</span>
+</div>
+<div class="toc-item-inline">
+<span class="toc-number">03</span>
+<span class="toc-title-small">実用と技術</span>
+</div>
+<div class="toc-item-inline">
+<span class="toc-number">04</span>
+<span class="toc-title-small">余談</span>
+</div>
+<div class="toc-item-inline">
+<span class="toc-number">05</span>
+<span class="toc-title-small">WS</span>
+</div>
+</div>
 
 ---
 
@@ -253,9 +468,36 @@ NFTの現在地、バブルと詐欺の実態
 
 ---
 
-<!-- _class: lead -->
+<!-- _class: chapter-minimal -->
 
-# 第2部：現状と歴史
+<div class="chapter-number-large">02</div>
+
+# 現状と歴史
+
+<div class="chapter-subtitle">NFTの現在地、バブルと詐欺の実態</div>
+
+<div class="chapter-toc-inline">
+<div class="toc-item-inline">
+<span class="toc-number">01</span>
+<span class="toc-title-small">基礎理解</span>
+</div>
+<div class="toc-item-inline current">
+<span class="toc-number">02</span>
+<span class="toc-title-small">現状と歴史</span>
+</div>
+<div class="toc-item-inline">
+<span class="toc-number">03</span>
+<span class="toc-title-small">実用と技術</span>
+</div>
+<div class="toc-item-inline">
+<span class="toc-number">04</span>
+<span class="toc-title-small">余談</span>
+</div>
+<div class="toc-item-inline">
+<span class="toc-number">05</span>
+<span class="toc-title-small">WS</span>
+</div>
+</div>
 
 ---
 
@@ -408,9 +650,36 @@ NFTの現在地、バブルと詐欺の実態
 
 ---
 
-<!-- _class: lead -->
+<!-- _class: chapter-minimal -->
 
-# 第3部：実用と技術
+<div class="chapter-number-large">03</div>
+
+# 実用と技術
+
+<div class="chapter-subtitle">実際のユースケース、技術詳細、未来展望</div>
+
+<div class="chapter-toc-inline">
+<div class="toc-item-inline">
+<span class="toc-number">01</span>
+<span class="toc-title-small">基礎理解</span>
+</div>
+<div class="toc-item-inline">
+<span class="toc-number">02</span>
+<span class="toc-title-small">現状と歴史</span>
+</div>
+<div class="toc-item-inline current">
+<span class="toc-number">03</span>
+<span class="toc-title-small">実用と技術</span>
+</div>
+<div class="toc-item-inline">
+<span class="toc-number">04</span>
+<span class="toc-title-small">余談</span>
+</div>
+<div class="toc-item-inline">
+<span class="toc-number">05</span>
+<span class="toc-title-small">WS</span>
+</div>
+</div>
 
 ---
 
@@ -586,9 +855,36 @@ NFTの現在地、バブルと詐欺の実態
 
 ---
 
-<!-- _class: lead -->
+<!-- _class: chapter-minimal -->
 
-# よく言われることと反論
+<div class="chapter-number-large">04</div>
+
+# 余談
+
+<div class="chapter-subtitle">よく言われることと反論</div>
+
+<div class="chapter-toc-inline">
+<div class="toc-item-inline">
+<span class="toc-number">01</span>
+<span class="toc-title-small">基礎理解</span>
+</div>
+<div class="toc-item-inline">
+<span class="toc-number">02</span>
+<span class="toc-title-small">現状と歴史</span>
+</div>
+<div class="toc-item-inline">
+<span class="toc-number">03</span>
+<span class="toc-title-small">実用と技術</span>
+</div>
+<div class="toc-item-inline current">
+<span class="toc-number">04</span>
+<span class="toc-title-small">余談</span>
+</div>
+<div class="toc-item-inline">
+<span class="toc-number">05</span>
+<span class="toc-title-small">WS</span>
+</div>
+</div>
 
 ---
 
@@ -714,9 +1010,36 @@ NFTの現在地、バブルと詐欺の実態
 
 ---
 
-<!-- _class: lead -->
+<!-- _class: chapter-minimal -->
+
+<div class="chapter-number-large">05</div>
 
 # ワークショップ
+
+<div class="chapter-subtitle">実際にNFTを発行してみよう</div>
+
+<div class="chapter-toc-inline">
+<div class="toc-item-inline">
+<span class="toc-number">01</span>
+<span class="toc-title-small">基礎理解</span>
+</div>
+<div class="toc-item-inline">
+<span class="toc-number">02</span>
+<span class="toc-title-small">現状と歴史</span>
+</div>
+<div class="toc-item-inline">
+<span class="toc-number">03</span>
+<span class="toc-title-small">実用と技術</span>
+</div>
+<div class="toc-item-inline">
+<span class="toc-number">04</span>
+<span class="toc-title-small">余談</span>
+</div>
+<div class="toc-item-inline current">
+<span class="toc-number">05</span>
+<span class="toc-title-small">WS</span>
+</div>
+</div>
 
 ---
 
