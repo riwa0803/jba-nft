@@ -308,6 +308,17 @@ style: |
 
 ---
 
+# 目次
+
+### 第1部：基礎理解
+### 第2部：現状と歴史
+### 第3部：実用と技術
+### 第4部：NFTと法律
+### 第5部：余談
+### 第6部：ワークショップ
+
+---
+
 # 自己紹介
 
 <div class="two-columns">
@@ -337,21 +348,6 @@ style: |
 
 ---
 
-# 今日の話の流れ
-
-## 3部構成でNFTを理解する
-
-### 第1部：基礎理解
-NFTとは何か、どう捉えるべきか
-
-### 第2部：現状と歴史
-NFTの現在地、バブルと詐欺の実態
-
-### 第3部：実用と技術
-実際のユースケース、技術詳細、未来展望
-
----
-
 <!-- _class: chapter-minimal -->
 
 <div class="chapter-number-large">01</div>
@@ -375,10 +371,14 @@ NFTの現在地、バブルと詐欺の実態
 </div>
 <div class="toc-item-inline">
 <span class="toc-number">04</span>
-<span class="toc-title-small">余談</span>
+<span class="toc-title-small">NFTと法律</span>
 </div>
 <div class="toc-item-inline">
 <span class="toc-number">05</span>
+<span class="toc-title-small">余談</span>
+</div>
+<div class="toc-item-inline">
+<span class="toc-number">06</span>
 <span class="toc-title-small">WS</span>
 </div>
 </div>
@@ -398,9 +398,25 @@ NFTの現在地、バブルと詐欺の実態
 
 ---
 
+# NFTは何でないのか
+
+❌ **オリジナルであることが保証されたデータ**
+→ データ自体はコピー可能
+
+❌ **コピー不可能なデータ**
+→ 画像などのコンテンツはコピー可能
+
+❌ **所有権を示すもの**
+→ 法的な所有権とは別物
+
+❌ **金融商品**
+→ 投機対象ではなく技術
+
+---
+
 # NFTの正しい定義と理解
 
-- NFTは世界に一つしかない組み合わせの情報を持ったデータ
+- NFTは世界に「一つしかない組み合わせ」の情報を持ったデータ
 - NFTそれぞれが持っている情報全てがユニークなわけではない
 - 一意性を持つのはブロックチェーンに書き込まれた情報のみ
 - 「偽物のNFT」はオンチェーン情報を偽装しているわけではない
@@ -409,6 +425,7 @@ NFTの現在地、バブルと詐欺の実態
 **この技術的な正確性を理解してもらうことが目標**
 
 ---
+
 
 # NFTの範囲
 
@@ -430,6 +447,8 @@ NFTの現在地、バブルと詐欺の実態
 
 </div>
 <div class="right-column">
+
+<h3 style="margin-top: 0; margin-bottom: 1rem;">一般的な構成</h3>
 
 <div class="image-container-fixed">
 <!-- ![width:100%](image.png) -->
@@ -491,10 +510,14 @@ NFTの現在地、バブルと詐欺の実態
 </div>
 <div class="toc-item-inline">
 <span class="toc-number">04</span>
-<span class="toc-title-small">余談</span>
+<span class="toc-title-small">NFTと法律</span>
 </div>
 <div class="toc-item-inline">
 <span class="toc-number">05</span>
+<span class="toc-title-small">余談</span>
+</div>
+<div class="toc-item-inline">
+<span class="toc-number">06</span>
 <span class="toc-title-small">WS</span>
 </div>
 </div>
@@ -621,21 +644,6 @@ NFTの現在地、バブルと詐欺の実態
 
 ---
 
-# NFTは何でないのか
-
-❌ **オリジナルであることが保証されたデータ**
-→ データ自体はコピー可能
-
-❌ **コピー不可能なデータ**
-→ 画像などのコンテンツはコピー可能
-
-❌ **所有権を示すもの**
-→ 法的な所有権とは別物
-
-❌ **金融商品**
-→ 投機対象ではなく技術
-
----
 
 # 現状理解のまとめ
 
@@ -673,10 +681,14 @@ NFTの現在地、バブルと詐欺の実態
 </div>
 <div class="toc-item-inline">
 <span class="toc-number">04</span>
-<span class="toc-title-small">余談</span>
+<span class="toc-title-small">NFTと法律</span>
 </div>
 <div class="toc-item-inline">
 <span class="toc-number">05</span>
+<span class="toc-title-small">余談</span>
+</div>
+<div class="toc-item-inline">
+<span class="toc-number">06</span>
 <span class="toc-title-small">WS</span>
 </div>
 </div>
@@ -842,6 +854,65 @@ NFTの現在地、バブルと詐欺の実態
 
 ---
 
+# NFTの作り方
+
+1. **チェーン選択**: Ethereum、Polygon等
+2. **規格選択**: ERC721、ERC1155等
+3. **コントラクト作成**: スマートコントラクトをデプロイ
+4. **トークン発行**: mint関数でNFT生成
+
+### カスタマイズ例
+- 転送機能を外す（会員権用途）
+- 条件付き転送
+
+---
+
+<!-- _class: chapter-minimal -->
+
+<div class="chapter-number-large">04</div>
+
+# NFTと法律
+
+<div class="chapter-subtitle">権利関係の正しい理解</div>
+
+<div class="chapter-toc-inline">
+<div class="toc-item-inline">
+<span class="toc-number">01</span>
+<span class="toc-title-small">基礎理解</span>
+</div>
+<div class="toc-item-inline">
+<span class="toc-number">02</span>
+<span class="toc-title-small">現状と歴史</span>
+</div>
+<div class="toc-item-inline">
+<span class="toc-number">03</span>
+<span class="toc-title-small">実用と技術</span>
+</div>
+<div class="toc-item-inline current">
+<span class="toc-number">04</span>
+<span class="toc-title-small">NFTと法律</span>
+</div>
+<div class="toc-item-inline">
+<span class="toc-number">05</span>
+<span class="toc-title-small">余談</span>
+</div>
+<div class="toc-item-inline">
+<span class="toc-number">06</span>
+<span class="toc-title-small">WS</span>
+</div>
+</div>
+
+---
+
+# NFT法的権利の基礎知識
+
+### 重要な前提
+NFTの購入 ≠ 著作権の取得
+
+法的権利について正しく理解する必要があります
+
+---
+
 # NFTと法的権利
 
 ### 一般的な誤解
@@ -864,11 +935,6 @@ NFTの現在地、バブルと詐欺の実態
 - 転売・譲渡が可能
 - 技術的な「所有」
 
-### 著作権
-- 作品の複製・改変・公衆送信権など
-- 通常は創作者が保持
-- 別途譲渡契約が必要
-
 ### ライセンス
 - プロジェクトごとに異なる
 - 個人利用のみ／商用利用可など
@@ -890,11 +956,6 @@ NFTの現在地、バブルと詐欺の実態
 - サービス利用権に近い概念
 - プラットフォーム依存性
 
-### 法的保護の限界
-- 従来の所有権とは異なる
-- 新しい法制度の整備が課題
-- 契約法・知的財産法が関連
-
 **「デジタル所有権」は発展途上の概念**
 
 ---
@@ -904,12 +965,7 @@ NFTの現在地、バブルと詐欺の実態
 <div class="two-columns">
 <div class="left-column">
 
-### 初期（2017年）
-- 権利関係が不明確
-- ライセンス規定なし
-- グレーゾーン状態
-
-### 転換点（2022年）
+### NFT保有者に画像の使用権利を付与
 - Yuga Labsが権利取得
 - NFT所有者に商用利用権を付与
 - 明確なライセンス設定
@@ -947,11 +1003,6 @@ NFTの現在地、バブルと詐欺の実態
 - 物理的所有権とは分離
 - 契約で権利関係を明確化
 
-### 意義
-- NFTの実用的な価値を提示
-- 権利設計のベストプラクティス
-- サービス業界への応用例
-
 ---
 
 # 法的権利まとめ：購入前の確認ポイント
@@ -966,36 +1017,13 @@ NFTの現在地、バブルと詐欺の実態
 3. **制限事項**
    - 禁止されている利用方法は？
 
-### 注意すべきポイント
-- プロジェクトごとに権利は異なる
-- 利用規約の変更可能性
-- 法的助言の必要性
-
-### 今後の展望
-- デジタル所有権の法制度整備
-- 業界標準の確立
-- より明確な権利関係の定義
-
 **「技術的所有」と「法的権利」は別物と認識することが重要**
-
----
-
-# NFTの作り方
-
-1. **チェーン選択**: Ethereum、Polygon等
-2. **規格選択**: ERC721、ERC1155等
-3. **コントラクト作成**: スマートコントラクトをデプロイ
-4. **トークン発行**: mint関数でNFT生成
-
-### カスタマイズ例
-- 転送機能を外す（会員権用途）
-- 条件付き転送
 
 ---
 
 <!-- _class: chapter-minimal -->
 
-<div class="chapter-number-large">04</div>
+<div class="chapter-number-large">05</div>
 
 # 余談
 
@@ -1014,12 +1042,16 @@ NFTの現在地、バブルと詐欺の実態
 <span class="toc-number">03</span>
 <span class="toc-title-small">実用と技術</span>
 </div>
-<div class="toc-item-inline current">
+<div class="toc-item-inline">
 <span class="toc-number">04</span>
+<span class="toc-title-small">NFTと法律</span>
+</div>
+<div class="toc-item-inline current">
+<span class="toc-number">05</span>
 <span class="toc-title-small">余談</span>
 </div>
 <div class="toc-item-inline">
-<span class="toc-number">05</span>
+<span class="toc-number">06</span>
 <span class="toc-title-small">WS</span>
 </div>
 </div>
@@ -1133,24 +1165,33 @@ NFTの現在地、バブルと詐欺の実態
 
 ---
 
-# まとめ
+# 総まとめ：NFTの真実
 
-## NFTについて伝えたかったこと
+## 第1部：基礎理解
+- **NFTの本質**: ブロックチェーン上の一意なトークン
+- **正しい定義**: 世界に一つの組み合わせを持つ情報
+- **3つのレイヤー**: トークン・メタデータ・画像
+- **技術と認識のギャップ**: 99%のユーザーは画像を含めて理解
 
-### 技術の正確な理解が必要
-- 「偽物ができる」は誤解
-- オンチェーンレベルでは改ざん不可能
+## 第2部：現状と歴史  
+- **現在位置**: バブル崩壊後の幻滅期、実用段階への移行
+- **詐欺の実態**: 偽物は存在するが技術的に判別可能
+- **誤解の解消**: NFT ≠ 画像・コンテンツ、技術理解が重要
 
-### 価値は使い方で決まる
-- 単なるJPEGではなく、活用方法が重要
-- ゲーム、会員権、DeFiなど多様な用途
+## 第3部：実用と技術
+- **実用例**: ゲーム・DeFi・会員権・物理資産の管理
+- **技術標準**: ERC721規格とOpenSeaメタデータ
+- **法的理解**: NFT所有 ≠ 著作権、権利関係の確認が重要
+
+## 今日のメッセージ
+**NFTは技術。価値は使い方と文脈が決める**
 
 
 ---
 
 <!-- _class: chapter-minimal -->
 
-<div class="chapter-number-large">05</div>
+<div class="chapter-number-large">06</div>
 
 # ワークショップ
 
@@ -1171,10 +1212,14 @@ NFTの現在地、バブルと詐欺の実態
 </div>
 <div class="toc-item-inline">
 <span class="toc-number">04</span>
+<span class="toc-title-small">NFTと法律</span>
+</div>
+<div class="toc-item-inline">
+<span class="toc-number">05</span>
 <span class="toc-title-small">余談</span>
 </div>
 <div class="toc-item-inline current">
-<span class="toc-number">05</span>
+<span class="toc-number">06</span>
 <span class="toc-title-small">WS</span>
 </div>
 </div>
