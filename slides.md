@@ -111,6 +111,26 @@ style: |
     object-fit: contain;
   }
   
+  /* プロフィール専用レイアウト */
+  .profile-layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    height: 100%;
+  }
+  .profile-left {
+    flex: 0 0 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .profile-right {
+    flex: 0 0 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
   /* 章タイトルデザイン候補 */
   
   /* 候補1: プログレスバー付き */
@@ -321,15 +341,15 @@ style: |
 
 # 自己紹介
 
-<div class="two-columns">
-<div class="left-column">
+<div class="profile-layout">
+<div class="profile-left">
 
 <div class="image-container-fixed">
 <img src="profile-kawanaka.jpg" alt="Profile Photo">
 </div>
 
 </div>
-<div class="right-column">
+<div class="profile-right">
 
 ## double jump.tokyo 株式会社
 # 岩崎 理久郎 
@@ -1263,7 +1283,11 @@ NFTの購入 ≠ 著作権の取得
 <div class="right-column">
 
 <div class="image-container-fixed">
-<img src="workshop-create-project.png" alt="Create Project">
+<img src="workshop-create-project.png" alt="OpenSea Display">
+</div>
+
+<div class="image-container-fixed">
+<img src="create-project2.png" alt="Create Project">
 </div>
 
 </div>
@@ -1339,11 +1363,11 @@ NFTの購入 ≠ 著作権の取得
 <div class="right-column">
 
 <div class="image-container-fixed">
-<img src="workshop-contract-deploy.png" alt="Contract Checklist">
+<img src="workshop-metamask-thirdweb.png" alt="Mint NFT">
 </div>
 
 <div class="image-container-fixed">
-<img src="workshop-metamask-thirdweb.png" alt="Mint NFT">
+<img src="workshop-contract-deploy.png" alt="Contract Checklist">
 </div>
 
 </div>
