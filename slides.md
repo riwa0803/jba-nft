@@ -1226,287 +1226,146 @@ NFTの購入 ≠ 著作権の取得
 
 ---
 
-# ThirdwebでNFTを発行してみよう
 
-### 実際にNFTを発行する体験をしてみましょう
+# 1. Thirdwebにログイン
 
-- **Thirdweb**: Web3開発プラットフォーム
-- **ノーコード**: プログラミング不要でNFTコレクション作成
-- **体験**: NFTの技術的な仕組みを実感
-
-### 今日学んだ内容の実践
-- チェーン+コントラクト+トークンIDの確認
-- オンチェーンとオフチェーンデータの理解
-- ERC721規格の実際の動作
+### https://thirdweb.com/login
 
 ---
 
-# ワークショップの流れ
+# 2. アカウントを作成
 
-### 1. 事前準備（5分）
-- MetaMaskウォレットの作成
-- テストネットの設定
-- テスト用ETHの取得
-
-### 2. Thirdwebでコレクション作成（10分）
-- Thirdwebアカウント作成
-- NFTコレクションのデプロイ
-- コントラクト設定
-
-### 3. NFT発行体験（15分）
-- 画像とメタデータの準備
-- NFTのミント（発行）
-- トランザクションの確認
-
----
-
-# 必要なツール
-
-### 1. MetaMask
-- ブラウザ拡張機能
-- 暗号資産ウォレット
-- NFTの管理に必須
-
-### 2. テストネット
-- **Sepolia**: Ethereumテストネット
-- **Mumbai**: Polygonテストネット
-- 本番環境と同じ動作を無料で体験
-
-### 3. Thirdweb
-- https://thirdweb.com
-- ノーコードでスマートコントラクト作成
-- 初心者に優しいインターフェース
-
----
-
-# ステップ1：MetaMaskの準備
-
-### インストール
-1. Chrome拡張機能から「MetaMask」を検索
-2. 公式版をインストール
-3. ウォレットを新規作成
-
-### 重要な注意事項
-- **シードフレーズは絶対に他人に教えない**
-- **スクリーンショットを撮らない**
-- **紙に書いて安全に保管**
-
-### テストネット設定
-- 設定 → ネットワーク → テストネットを表示
-- Sepoliaネットワークを選択
-
----
-
-# ステップ2：テスト用ETHの取得
-
-### Faucet（蛇口）サイト
-無料でテスト用ETHを取得できるサービス
-
-### 推奨Faucet
-1. **Alchemy Sepolia Faucet**
-   - https://sepoliafaucet.com
-   - 1日0.5 ETH取得可能
-
-2. **Infura Faucet**
-   - アカウント作成が必要
-   - 安定して取得可能
-
-### 取得方法
-1. MetaMaskのアドレスをコピー
-2. Faucetサイトに貼り付け
-3. 数分でETHが届く
-
----
-
-# ステップ3：Thirdwebでコレクション作成
+<div class="two-columns">
+<div class="left-column">
 
 ### アカウント作成
-1. https://thirdweb.com にアクセス
-2. MetaMaskで接続
-3. プロフィール設定
 
-### NFTコレクションの作成
-1. 「Contracts」→「Deploy Contract」
-2. 「NFT Collection」を選択
-3. 必要情報を入力：
-   - **Name**: コレクション名
-   - **Symbol**: トークンシンボル（3-4文字）
-   - **Description**: 説明文
+</div>
+<div class="right-column">
 
----
+<div class="image-container-fixed">
+<img src="workshop-sepolia-deploy.png" alt="Account Creation">
+</div>
 
-# ステップ4：スマートコントラクトの設定
-
-### 基本設定
-- **Royalty**: 二次流通時のロイヤリティ（0-10%）
-- **Primary Sale**: 初回販売の受取アドレス
-- **Platform Fee**: プラットフォーム手数料
-
-### 高度な設定（オプション）
-- **Max Supply**: 最大発行数
-- **Mint Price**: 発行価格
-- **Allowlist**: ホワイトリスト機能
-
-### デプロイ
-- 設定確認後「Deploy Now」
-- MetaMaskで承認
-- 数分でデプロイ完了
+</div>
+</div>
 
 ---
 
-# ステップ5：NFTの発行
+# 3. プロジェクト作成
 
-### 画像の準備
-- **推奨フォーマット**: PNG, JPG, GIF
-- **推奨サイズ**: 1000x1000px以上
-- **ファイルサイズ**: 100MB以下
+<div class="two-columns">
+<div class="left-column">
 
-### メタデータの設定
-```json
-{
-  "name": "My First NFT #1",
-  "description": "これは私の最初のNFTです",
-  "image": "ipfs://...",
-  "attributes": [
-    {"trait_type": "Color", "value": "Blue"},
-    {"trait_type": "Rarity", "value": "Common"}
-  ]
-}
-```
+### プロジェクト作成
+
+</div>
+<div class="right-column">
+
+<div class="image-container-fixed">
+<img src="workshop-create-project.png" alt="Create Project">
+</div>
+
+</div>
+</div>
 
 ---
 
-# ステップ6：ミント実行
+# 4. コントラクトデプロイに進む
 
-### Single Mint
-1. 「NFTs」タブを選択
-2. 「Mint」ボタンをクリック
-3. 画像をアップロード
-4. メタデータを入力
-5. 「Mint NFT」実行
+<div class="two-columns">
+<div class="left-column">
 
-### Batch Mint（複数同時発行）
-- CSVファイルで一括アップロード
-- 効率的な大量発行
+### コントラクトデプロイに進む
 
-### ミント確認
-- トランザクションハッシュの確認
-- Etherscanで詳細確認
-- OpenSeaで表示確認
+</div>
+<div class="right-column">
 
----
+<div class="image-container-fixed">
+<img src="workshop-deploy-contract.png" alt="Contract Deploy">
+</div>
 
-# 発行したNFTの確認
-
-### Etherscanで確認
-- トランザクション詳細
-- ガス代
-- コントラクトアドレス
-- トークンID
-
-### OpenSea Testnetで確認
-- https://testnets.opensea.io
-- 見た目の確認
-- メタデータの表示
-- 所有者情報
-
-### MetaMaskで確認
-- NFTタブで表示
-- 自動検出されない場合は手動追加
+</div>
+</div>
 
 ---
 
-# よくあるトラブルと対処法
+# 5. 「NFT Collection」を選択
 
-### 1. トランザクションが通らない
-- **原因**: ガス代不足
-- **対処**: Faucetで追加取得
+<div class="two-columns">
+<div class="left-column">
 
-### 2. NFTが表示されない
-- **原因**: インデックス待ち
-- **対処**: 5-10分待つ
+### 「NFT Collection」を選択
 
-### 3. メタデータが更新されない
-- **原因**: キャッシュ
-- **対処**: OpenSeaでリフレッシュ
+</div>
+<div class="right-column">
 
-### 4. エラーメッセージ
-- **原因**: ネットワーク不一致
-- **対処**: 正しいネットワークに切り替え
+<div class="image-container-fixed">
+<img src="workshop-select-template.png" alt="NFT Collection">
+</div>
 
----
-
-# 応用：独自機能の追加
-
-### Thirdwebの拡張機能
-- **Claim Conditions**: 販売条件の設定
-- **Delayed Reveal**: 段階的な公開
-- **Signature Mint**: 署名ベースの発行
-
-### カスタムロジック
-- 転送制限
-- バーン機能
-- アップグレード機能
-
-### 実装例
-```solidity
-// 転送を1回だけに制限
-mapping(uint256 => bool) hasTransferred;
-```
+</div>
+</div>
 
 ---
 
-# 本番環境への移行
+# 6. Sepoliaを選択してデプロイ
 
-### メインネットの準備
-1. 実際のETHを購入
-2. ガス代の見積もり（$50-200）
-3. セキュリティの再確認
+<div class="two-columns">
+<div class="left-column">
 
-### チェーンの選択
-- **Ethereum**: 最も信頼性が高い
-- **Polygon**: ガス代が安い
-- **Arbitrum**: 高速・低コスト
+### Sepoliaを選択してデプロイ
 
-### マーケティング考慮事項
-- コミュニティ構築
-- 価格設定
-- ローンチ戦略
+</div>
+<div class="right-column">
 
----
+<div class="image-container-fixed">
+<img src="workshop-select-chain.png" alt="Sepolia Deploy">
+</div>
 
-# まとめ：体験から学んだこと
-
-### 技術的理解
-- NFT = トークンID + コントラクトアドレス + チェーン
-- メタデータはオフチェーン（IPFS）
-- ガス代は処理の複雑さで変動
-
-### 実践的知識
-- ウォレットの重要性
-- トランザクションの仕組み
-- 分散型ストレージの活用
-
-### 次のステップ
-- より複雑なNFTの作成
-- DAppsとの連携
-- コミュニティ参加
+</div>
+</div>
 
 ---
 
-# 参考リソース
+# 7. チェックリストに従ってNFTをMint
 
-### 学習リソース
-- **OpenZeppelin Docs**: スマートコントラクトのベストプラクティス
-- **Ethereum.org**: 公式ドキュメント
-- **BuildSpace**: 実践的なWeb3開発コース
+<div class="two-columns">
+<div class="left-column">
 
-### コミュニティ
-- **Twitter**: #NFT開発
-- **Discord**: 各プロジェクトのサーバー
-- **GitHub**: オープンソースプロジェクト
+### 画像入れておくのがおすすめ
 
-### ツール
-- **Remix IDE**: Solidityエディタ
-- **Hardhat**: 開発フレームワーク
-- **IPFS Desktop**: 分散ストレージ
+</div>
+<div class="right-column">
+
+<div class="image-container-fixed">
+<img src="workshop-contract-deploy.png" alt="Contract Checklist">
+</div>
+
+<div class="image-container-fixed">
+<img src="workshop-metamask-thirdweb.png" alt="Mint NFT">
+</div>
+
+</div>
+</div>
+
+---
+
+# 8. MintしたNFT
+
+<div class="two-columns">
+<div class="left-column">
+
+### OpenSea Testnetサイトでも表示される
+
+### https://testnets.opensea.io/ja
+
+### 送付、販売もできます
+
+</div>
+<div class="right-column">
+
+<!-- 画像なし -->
+
+</div>
+</div>
