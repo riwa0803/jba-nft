@@ -106,6 +106,17 @@ style: |
     justify-content: center;
     background: #f0f0f0;
   }
+  .profile-left .image-container-fixed {
+    margin: 2rem 0 0 0;
+    background: none;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .profile-left .image-container-fixed img {
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+  }
   .image-container-fixed img {
     width: 100%;
     height: 100%;
@@ -345,6 +356,36 @@ style: |
 
 ---
 
+# 自己紹介
+
+<div class="profile-layout">
+<div class="profile-left">
+
+## double jump.tokyo 株式会社
+# 岩崎 理久郎 
+
+<div class="image-container-fixed">
+<img src="profile.jpg" alt="Profile Photo">
+</div>
+
+</div>
+<div class="profile-right">
+
+### 主な経歴
+**2018** The University of Auckland 卒業
+
+**2019** 株式会社 Branding Engineer 入社
+
+**2021** double jump.tokyo 株式会社 入社
+         NFT販売やウォレット開発などに携わる
+
+### ユーザーとしては2018年から活動
+
+</div>
+</div>
+
+---
+
 # 目次
 
 ### 第1部：基礎理解
@@ -353,35 +394,6 @@ style: |
 ### 第4部：NFTと法律
 ### 第5部：余談
 ### 第6部：ワークショップ
-
----
-
-# 自己紹介
-
-<div class="profile-layout">
-<div class="profile-left">
-
-<div class="image-container-fixed">
-<img src="profile-kawanaka.jpg" alt="Profile Photo">
-</div>
-
-</div>
-<div class="profile-right">
-
-## double jump.tokyo 株式会社
-# 岩崎 理久郎 
-
-### 主な経歴
-**2018** The University of Auckland卒業
-
-**2019** 株式会社 Branding Engineer 入社
-
-**2021** double jump.tokyo 株式会社 入社
-
-### ユーザーとしては2018年から活動
-
-</div>
-</div>
 
 ---
 
@@ -521,6 +533,61 @@ style: |
 - **課題**: 99%のユーザーは画像を含めて認識
 
 **技術と認識のギャップへの配慮が必要**
+
+---
+
+# ERC721規格とは
+
+### 概要
+- 2018年1月承認、NFTの標準規格
+ー　他にも拡張規格があるが、一般的に「NFT」とだけ言う場合はこれ
+- 各トークンが一意のIDを持つ
+ー　発行や転送など、基本的な一連の機能が定義されている
+
+### 主要機能
+- **ownerOf**: 所有者確認
+- **transferFrom**: 移転
+- **approve**: 移転許可
+- **balanceOf**: 所有数確認
+
+### 重要性
+- **相互運用性**: どこでも取引可能
+- **標準化**: 統一的な扱い
+- **安全性**: 検証済み実装
+
+---
+
+# Metadata.jsonはOpenSeaスタンダードを使うのが一般的
+
+<div class="two-columns">
+<div class="left-column">
+
+### OpenSea Metadata Standard
+- NFTマーケットプレイスのデファクトスタンダード
+- 多くのプラットフォームで対応
+
+### 重要性
+- **相互運用性**: 複数のプラットフォームで表示可能
+- **標準化**: 統一されたデータ形式
+
+</div>
+<div class="right-column">
+
+### 基本的な構造
+```json
+{
+  "name": "My NFT",
+  "description": "This is my NFT",
+  "image": "https://example.com/image.png",
+  "attributes": [
+    {"trait_type": "Color", "value": "Blue"},
+    {"trait_type": "Rarity", "value": "Common"}
+  ]
+}
+```
+
+</div>
+</div>
 
 ---
 
@@ -836,61 +903,6 @@ style: |
 
 ---
 
-# ERC721規格とは
-
-### 概要
-- 2018年1月承認、NFTの標準規格
-ー　他にも拡張規格があるが、一般的に「NFT」とだけ言う場合はこれ
-- 各トークンが一意のIDを持つ
-ー　発行や転送など、基本的な一連の機能が定義されている
-
-### 主要機能
-- **ownerOf**: 所有者確認
-- **transferFrom**: 移転
-- **approve**: 移転許可
-- **balanceOf**: 所有数確認
-
-### 重要性
-- **相互運用性**: どこでも取引可能
-- **標準化**: 統一的な扱い
-- **安全性**: 検証済み実装
-
----
-
-# Metadata.jsonはOpenSeaスタンダードを使うのが一般的
-
-<div class="two-columns">
-<div class="left-column">
-
-### OpenSea Metadata Standard
-- NFTマーケットプレイスのデファクトスタンダード
-- 多くのプラットフォームで対応
-
-### 重要性
-- **相互運用性**: 複数のプラットフォームで表示可能
-- **標準化**: 統一されたデータ形式
-
-</div>
-<div class="right-column">
-
-### 基本的な構造
-```json
-{
-  "name": "My NFT",
-  "description": "This is my NFT",
-  "image": "https://example.com/image.png",
-  "attributes": [
-    {"trait_type": "Color", "value": "Blue"},
-    {"trait_type": "Rarity", "value": "Common"}
-  ]
-}
-```
-
-</div>
-</div>
-
----
-
 # NFTの作り方
 
 1. **チェーン選択**: Ethereum、Polygon等
@@ -1027,8 +1039,7 @@ NFTの購入 ≠ 著作権の取得
 
 # 事例2：Not a Hotelの権利設計
 
-### プロジェクト概要
-不動産をNFT化し、所有者に宿泊権を付与
+### 不動産をNFT化し、所有者に宿泊権を付与
 
 ### 明確な権利設計
 - **NFT所有者**: 年間一定日数の宿泊権
@@ -1055,6 +1066,21 @@ NFTの購入 ≠ 著作権の取得
    - 禁止されている利用方法は？
 
 **「技術的所有」と「法的権利」は別物と認識することが重要**
+
+---
+
+# ⚠️ NFTと賭博該当リスク
+
+### ランダムガチャのリスク
+- **有料ガチャ**: お金を払ってランダムにNFTを獲得
+- **レアリティ設定**: 確率によって価値の異なるNFTが出る
+- **二次流通**: 即座に換金が可能
+
+### ゲーム内実装の注意点
+- **有料参加**: 有料NFTが実質的参加料とならないよう注意
+- **報酬設定**: NFT/FTともに換金性があるため、財物となりえる
+
+**気になる場合は法律の会で聞いてください**
 
 ---
 
@@ -1182,12 +1208,7 @@ NFTの購入 ≠ 著作権の取得
 
 # Googleログインの便利さがNFTの良さを奪う
 
-### Web2ログインの利便性
-- **簡単**: Googleアカウントでワンクリックログイン
-- **統一**: 一つのアカウントで複数サービス利用
-- **安心**: パスワード管理不要
-
-### 実際の問題：ウォレットの分離
+### 新たな問題：ウォレットの分離
 - **カストディアルウォレット**: サービス運営企業が代理でウォレットを作成・管理
 - **データの分断**: 自分のウォレットとサービス用ウォレットが別々に
 - **資産の分散**: NFTが複数のウォレットに散在
