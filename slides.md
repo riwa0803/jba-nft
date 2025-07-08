@@ -1331,9 +1331,12 @@ style: |
 
 ---
 
+
 <!-- _class: lead -->
 
 # Thank you!
 
-## Make the world trustless and fair
+## Let's make the world trustless and fair.
 
+**質問・相談があれば**  
+**JBA等経由でお気軽にお声がけください**
