@@ -104,8 +104,25 @@ style: |
     display: flex;
     align-items: center;
     justify-content: center;
+    background: #f0f0f0;
   }
   .image-container-fixed img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  /* ワークショップ用の小さめ画像コンテナ */
+  .workshop-image {
+    width: 500px;
+    height: 200px;
+    overflow: hidden;
+    margin: 0 auto 0.5rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f0f0f0;
+  }
+  .workshop-image img {
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -1282,11 +1299,11 @@ NFTの購入 ≠ 著作権の取得
 </div>
 <div class="right-column">
 
-<div class="image-container-fixed">
+<div class="workshop-image">
 <img src="workshop-create-project.png" alt="OpenSea Display">
 </div>
 
-<div class="image-container-fixed">
+<div class="workshop-image">
 <img src="create-project2.png" alt="Create Project">
 </div>
 
@@ -1362,11 +1379,11 @@ NFTの購入 ≠ 著作権の取得
 </div>
 <div class="right-column">
 
-<div class="image-container-fixed">
+<div class="workshop-image">
 <img src="workshop-metamask-thirdweb.png" alt="Mint NFT">
 </div>
 
-<div class="image-container-fixed">
+<div class="workshop-image">
 <img src="workshop-contract-deploy.png" alt="Contract Checklist">
 </div>
 
