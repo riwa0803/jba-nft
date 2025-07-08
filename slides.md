@@ -390,8 +390,8 @@ style: |
 
 ### 第1部：基礎理解
 ### 第2部：現状と歴史
-### 第3部：実用と技術
-### 第4部：NFTと法律
+### 第3部：NFTと法律
+### 第4部：実用と技術
 ### 第5部：余談
 ### 第6部：ワークショップ
 
@@ -760,146 +760,6 @@ style: |
 
 **冷静な理解と適切な活用が必要**
 
----
-
-<!-- _class: chapter-minimal -->
-
-<div class="chapter-number-large">03</div>
-
-# 実用と技術
-
-<div class="chapter-subtitle">実際のユースケース、技術詳細、未来展望</div>
-
-<div class="chapter-toc-inline">
-<div class="toc-item-inline">
-<span class="toc-number">01</span>
-<span class="toc-title-small">基礎理解</span>
-</div>
-<div class="toc-item-inline">
-<span class="toc-number">02</span>
-<span class="toc-title-small">現状と歴史</span>
-</div>
-<div class="toc-item-inline current">
-<span class="toc-number">03</span>
-<span class="toc-title-small">実用と技術</span>
-</div>
-<div class="toc-item-inline">
-<span class="toc-number">04</span>
-<span class="toc-title-small">NFTと法律</span>
-</div>
-<div class="toc-item-inline">
-<span class="toc-number">05</span>
-<span class="toc-title-small">余談</span>
-</div>
-<div class="toc-item-inline">
-<span class="toc-number">06</span>
-<span class="toc-title-small">WS</span>
-</div>
-</div>
-
----
-
-# NFTのユースケース例
-
-- **会員権**: コミュニティアクセス、特典付与
-- **チケット**: イベント入場券、転売防止
-- **証明書**: 卒業証書、資格証明
-- **ゲーム**: アイテム所有権、相互運用性
-- **DeFi**: 金融ポジションの表現
-- **アート**: デジタル作品の真正性証明
-
----
-
-# 現在のメジャーユースケース1：ブロックチェーンゲーム
-
-### MyCryptoHeroes（国内BCGの先駆け）
-- キャラと装備がNFT、MMORPGのRMT型P2Eの初期モデル
-
-### エグリプト（国内最大の成功事例）
-- 基本は普通のスマホゲーム、たまにNFTキャラ出現、ゲーム性最優先
-
-### Axie Infinity（P2Eの創始者）
-- ポケモン風バトル、キャラ交配でNFT増殖、独自トークンがデファクトに
-
----
-
-# 現在のメジャーユースケース2：Courtyard
-
-<div class="two-columns">
-<div class="left-column">
-
-### 概要
-スニーカーやトレカなど高額コレクタブルをNFT化して安全に取引
-
-### 仕組み
-1. **預託**: 物理商品をCourtyardに送付 → NFT発行
-2. **取引**: NFTの売買で所有権が即座に移転
-3. **交換**: いつでもNFTと現物を交換可能
-
-</div>
-<div class="right-column">
-
-<div class="image-container-fixed">
-<!-- ![width:100%](courtyard-pokemon-card.png) -->
-<img src="courtyard-pokemon-card.png" alt="Courtyard Pokemon Card">
-</div>
-
-</div>
-</div>
-
----
-
-# 現在のメジャーユースケース3：TripleS
-
-<div class="two-columns">
-<div class="left-column">
-
-### 概要
-ファンがNFTを通じてアイドルグループの活動に直接参加
-
-### NFT活用
-- **Objekts**: メンバーのフォトカードNFT
-- **COMO**: ガバナンストークン機能
-- **投票権**: メンバー選抜、楽曲選択、活動方針
-
-</div>
-<div class="right-column">
-
-<div class="image-container-fixed">
-<!-- ![width:100%](triples-como-stats.png) -->
-<img src="triples-como-stats.png" alt="TripleS COMO Stats">
-</div>
-
-</div>
-</div>
-
-
----
-
-# 現在のメジャーユースケース4：DeFiポジション
-
-<div class="two-columns">
-<div class="left-column">
-
-### UniswapやAerodromeの事例
-- 流動性提供ポジションをNFT化
-- ポジション情報をMetadataに記載
-- 簡単に情報参照可能
-
-### 想定できる使い方
-- 1年間引き出せないデポジットをNFT化
-- そのNFTをディスカウントで取引
-
-</div>
-<div class="right-column">
-
-<div class="image-container-fixed">
-<!-- ![width:100%](nft-3-layer-diagram.svg) -->
-<img src="nft-3-layer-diagram.svg" alt="Uniswap Position NFT">
-</div>
-
-</div>
-</div>
 
 ---
 
@@ -914,15 +774,16 @@ style: |
 - 転送機能を外す（会員権用途）
 - 条件付き転送
 
+
 ---
 
 <!-- _class: chapter-minimal -->
 
-<div class="chapter-number-large">04</div>
+<div class="chapter-number-large">03</div>
 
 # NFTと法律
 
-<div class="chapter-subtitle">権利関係の正しい理解</div>
+<div class="chapter-subtitle">法的権利とリスクの理解</div>
 
 <div class="chapter-toc-inline">
 <div class="toc-item-inline">
@@ -933,13 +794,13 @@ style: |
 <span class="toc-number">02</span>
 <span class="toc-title-small">現状と歴史</span>
 </div>
-<div class="toc-item-inline">
-<span class="toc-number">03</span>
-<span class="toc-title-small">実用と技術</span>
-</div>
 <div class="toc-item-inline current">
-<span class="toc-number">04</span>
+<span class="toc-number">03</span>
 <span class="toc-title-small">NFTと法律</span>
+</div>
+<div class="toc-item-inline">
+<span class="toc-number">04</span>
+<span class="toc-title-small">実用と技術</span>
 </div>
 <div class="toc-item-inline">
 <span class="toc-number">05</span>
@@ -1086,6 +947,161 @@ NFTの購入 ≠ 著作権の取得
 
 <!-- _class: chapter-minimal -->
 
+<div class="chapter-number-large">04</div>
+
+# 実用と技術
+
+<div class="chapter-subtitle">NFTの実用性と技術概要</div>
+
+<div class="chapter-toc-inline">
+<div class="toc-item-inline">
+<span class="toc-number">01</span>
+<span class="toc-title-small">基礎理解</span>
+</div>
+<div class="toc-item-inline">
+<span class="toc-number">02</span>
+<span class="toc-title-small">現状と歴史</span>
+</div>
+<div class="toc-item-inline">
+<span class="toc-number">03</span>
+<span class="toc-title-small">NFTと法律</span>
+</div>
+<div class="toc-item-inline current">
+<span class="toc-number">04</span>
+<span class="toc-title-small">実用と技術</span>
+</div>
+<div class="toc-item-inline">
+<span class="toc-number">05</span>
+<span class="toc-title-small">余談</span>
+</div>
+<div class="toc-item-inline">
+<span class="toc-number">06</span>
+<span class="toc-title-small">WS</span>
+</div>
+</div>
+
+---
+
+# NFTのユースケース例
+
+- **会員権**: コミュニティアクセス、特典付与
+- **チケット**: イベント入場券、転売防止
+- **証明書**: 卒業証書、資格証明
+- **ゲーム**: アイテム所有権、相互運用性
+- **DeFi**: 金融ポジションの表現
+- **アート**: デジタル作品の真正性証明
+
+---
+
+# 現在のメジャーユースケース1：ブロックチェーンゲーム
+
+### MyCryptoHeroes（国内BCGの先駆け）
+- キャラと装備がNFT、MMORPGのRMT型P2Eの初期モデル
+
+### エグリプト（国内最大の成功事例）
+- 基本は普通のスマホゲーム、たまにNFTキャラ出現、ゲーム性最優先
+
+### Axie Infinity（P2Eの創始者）
+- ポケモン風バトル、キャラ交配でNFT増殖、独自トークンがデファクトに
+
+---
+
+# 現在のメジャーユースケース2：Courtyard
+
+<div class="two-columns">
+<div class="left-column">
+
+### 概要
+スニーカーやトレカなど高額コレクタブルをNFT化して安全に取引
+
+### 仕組み
+1. **預託**: 物理商品をCourtyardに送付 → NFT発行
+2. **取引**: NFTの売買で所有権が即座に移転
+3. **交換**: いつでもNFTと現物を交換可能
+
+</div>
+<div class="right-column">
+
+<div class="image-container-fixed">
+<!-- ![width:100%](courtyard-pokemon-card.png) -->
+<img src="courtyard-pokemon-card.png" alt="Courtyard Pokemon Card">
+</div>
+
+</div>
+</div>
+
+---
+
+# 現在のメジャーユースケース3：TripleS
+
+<div class="two-columns">
+<div class="left-column">
+
+### 概要
+ファンがNFTを通じてアイドルグループの活動に直接参加
+
+### NFT活用
+- **Objekts**: メンバーのフォトカードNFT
+- **COMO**: ガバナンストークン機能
+- **投票権**: メンバー選抜、楽曲選択、活動方針
+
+</div>
+<div class="right-column">
+
+<div class="image-container-fixed">
+<!-- ![width:100%](triples-como-stats.png) -->
+<img src="triples-como-stats.png" alt="TripleS COMO Stats">
+</div>
+
+</div>
+</div>
+
+
+---
+
+# 現在のメジャーユースケース4：DeFiポジション
+
+<div class="two-columns">
+<div class="left-column">
+
+### UniswapやAerodromeの事例
+- 流動性提供ポジションをNFT化
+- ポジション情報をMetadataに記載
+- 簡単に情報参照可能
+
+### 想定できる使い方
+- 1年間引き出せないデポジットをNFT化
+- そのNFTをディスカウントで取引
+
+</div>
+<div class="right-column">
+
+<div class="image-container-fixed">
+<!-- ![width:100%](nft-3-layer-diagram.svg) -->
+<img src="nft-3-layer-diagram.svg" alt="Uniswap Position NFT">
+</div>
+
+</div>
+</div>
+
+---
+
+# NFTの作り方
+
+1. **チェーン選択**: Ethereum、Polygon等
+2. **規格選択**: ERC721、ERC1155等
+3. **コントラクト作成**: スマートコントラクトをデプロイ
+4. **トークン発行**: mint関数でNFT生成
+
+### カスタマイズ例
+- 転送機能を外す（会員権用途）
+- 条件付き転送
+
+
+---
+
+<!-- _class: chapter-minimal -->
+
 <div class="chapter-number-large">05</div>
 
 # 余談
@@ -1103,11 +1119,11 @@ NFTの購入 ≠ 著作権の取得
 </div>
 <div class="toc-item-inline">
 <span class="toc-number">03</span>
-<span class="toc-title-small">実用と技術</span>
+<span class="toc-title-small">NFTと法律</span>
 </div>
 <div class="toc-item-inline">
 <span class="toc-number">04</span>
-<span class="toc-title-small">NFTと法律</span>
+<span class="toc-title-small">実用と技術</span>
 </div>
 <div class="toc-item-inline current">
 <span class="toc-number">05</span>
@@ -1266,11 +1282,11 @@ NFTの購入 ≠ 著作権の取得
 </div>
 <div class="toc-item-inline">
 <span class="toc-number">03</span>
-<span class="toc-title-small">実用と技術</span>
+<span class="toc-title-small">NFTと法律</span>
 </div>
 <div class="toc-item-inline">
 <span class="toc-number">04</span>
-<span class="toc-title-small">NFTと法律</span>
+<span class="toc-title-small">実用と技術</span>
 </div>
 <div class="toc-item-inline">
 <span class="toc-number">05</span>
@@ -1431,3 +1447,12 @@ NFTの購入 ≠ 著作権の取得
 
 </div>
 </div>
+
+---
+
+<!-- _class: lead -->
+
+# Thank you!
+
+## Make the world trustless and fair
+
