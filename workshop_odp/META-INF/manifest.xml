@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest:manifest xmlns:manifest="urn:oasis:names:tc:opendocument:xmlns:manifest:1.0" manifest:version="1.2" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0">
+ <manifest:file-entry manifest:full-path="/" manifest:version="1.2" manifest:media-type="application/vnd.oasis.opendocument.presentation"/>
+ <manifest:file-entry manifest:full-path="Thumbnails/thumbnail.png" manifest:media-type="image/png"/>
+ <manifest:file-entry manifest:full-path="meta.xml" manifest:media-type="text/xml"/>
+ <manifest:file-entry manifest:full-path="settings.xml" manifest:media-type="text/xml"/>
+ <manifest:file-entry manifest:full-path="Pictures/1000020100000638000001F0E2015B4E091E8B1C.png" manifest:media-type="image/png"/>
+ <manifest:file-entry manifest:full-path="Pictures/10000201000006660000029FA7B2BB8A89CB08B5.png" manifest:media-type="image/png"/>
+ <manifest:file-entry manifest:full-path="Pictures/1000020100000454000001423E330D0231469FB4.png" manifest:media-type="image/png"/>
+ <manifest:file-entry manifest:full-path="Pictures/10000201000007750000028C56ED0A29BE88769A.png" manifest:media-type="image/png"/>
+ <manifest:file-entry manifest:full-path="Pictures/10000201000002EF0000037169BDB555FA9620B5.png" manifest:media-type="image/png"/>
+ <manifest:file-entry manifest:full-path="Pictures/100002010000023600000258E6F7930B9C9D9DA4.png" manifest:media-type="image/png"/>
+ <manifest:file-entry manifest:full-path="Pictures/100002010000054B000002B4A50DB6B9261DA0F1.png" manifest:media-type="image/png"/>
+ <manifest:file-entry manifest:full-path="Pictures/10000201000005210000026AD154888AAD57DE99.png" manifest:media-type="image/png"/>
+ <manifest:file-entry manifest:full-path="content.xml" manifest:media-type="text/xml"/>
+ <manifest:file-entry manifest:full-path="styles.xml" manifest:media-type="text/xml"/>
+ <manifest:file-entry manifest:full-path="Configurations2/" manifest:media-type="application/vnd.sun.xml.ui.configuration"/>
+</manifest:manifest>
