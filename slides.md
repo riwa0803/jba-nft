@@ -81,7 +81,6 @@ style: |
     width: 600px;
     height: 300px;
     overflow: hidden;
-    background: #f0f0f0;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -104,7 +103,6 @@ style: |
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #f0f0f0;
   }
   .profile-left .image-container-fixed {
     margin: 2rem 0 0 0;
@@ -131,7 +129,6 @@ style: |
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #f0f0f0;
   }
   .workshop-image img {
     width: 100%;
@@ -351,8 +348,8 @@ style: |
 <!-- _paginate: false -->
 <!-- _class: lead -->
 
-# NFTの真実
-## 〜技術と文脈が生み出す価値〜
+# NFTの基本と利用事例、
+# ブロックチェーンゲーム
 
 ---
 
@@ -388,12 +385,11 @@ style: |
 
 # 目次
 
-### 第1部：基礎理解
-### 第2部：現状と歴史
-### 第3部：NFTと法律
-### 第4部：実用と技術
-### 第5部：余談
-### 第6部：ワークショップ
+### 第1部：NFTとは何か
+### 第2部：NFTと法律
+### 第3部：市況と事例
+### 第4部：余談
+### 第5部：ワークショップ
 
 ---
 
@@ -401,33 +397,29 @@ style: |
 
 <div class="chapter-number-large">01</div>
 
-# 基礎理解
+# NFTとは何か
 
 <div class="chapter-subtitle">NFTとは何か、どう捉えるべきか</div>
 
 <div class="chapter-toc-inline">
 <div class="toc-item-inline current">
 <span class="toc-number">01</span>
-<span class="toc-title-small">基礎理解</span>
+<span class="toc-title-small">NFTとは何か</span>
 </div>
 <div class="toc-item-inline">
 <span class="toc-number">02</span>
-<span class="toc-title-small">現状と歴史</span>
-</div>
-<div class="toc-item-inline">
-<span class="toc-number">03</span>
-<span class="toc-title-small">実用と技術</span>
-</div>
-<div class="toc-item-inline">
-<span class="toc-number">04</span>
 <span class="toc-title-small">NFTと法律</span>
 </div>
 <div class="toc-item-inline">
-<span class="toc-number">05</span>
+<span class="toc-number">03</span>
+<span class="toc-title-small">市況と事例</span>
+</div>
+<div class="toc-item-inline">
+<span class="toc-number">04</span>
 <span class="toc-title-small">余談</span>
 </div>
 <div class="toc-item-inline">
-<span class="toc-number">06</span>
+<span class="toc-number">05</span>
 <span class="toc-title-small">WS</span>
 </div>
 </div>
@@ -632,134 +624,6 @@ style: |
 
 <div class="chapter-number-large">02</div>
 
-# 現状と歴史
-
-<div class="chapter-subtitle">NFTの現在地、バブルと詐欺の実態</div>
-
-<div class="chapter-toc-inline">
-<div class="toc-item-inline">
-<span class="toc-number">01</span>
-<span class="toc-title-small">基礎理解</span>
-</div>
-<div class="toc-item-inline current">
-<span class="toc-number">02</span>
-<span class="toc-title-small">現状と歴史</span>
-</div>
-<div class="toc-item-inline">
-<span class="toc-number">03</span>
-<span class="toc-title-small">実用と技術</span>
-</div>
-<div class="toc-item-inline">
-<span class="toc-number">04</span>
-<span class="toc-title-small">NFTと法律</span>
-</div>
-<div class="toc-item-inline">
-<span class="toc-number">05</span>
-<span class="toc-title-small">余談</span>
-</div>
-<div class="toc-item-inline">
-<span class="toc-number">06</span>
-<span class="toc-title-small">WS</span>
-</div>
-</div>
-
----
-
-# NFTの現在地
-
-<div class="two-columns">
-<div class="left-column">
-
-### 現在の位置：**幻滅期**
-
-- ピーク時の過度な期待が崩壊
-- 実用的な価値の模索段階
-- 投機から実用へのシフト
-
-### 検索トレンドも低下
-
-- 2022年1月をピークに90%以上減少
-- 一般的な関心は薄れている
-- しかし技術開発は継続中
-
-</div>
-<div class="right-column">
-
-<div class="image-container-fixed">
-<!-- ![width:100%](gartnar-japan-infra-hype.png) -->
-<img src="gartnar-japan-infra-hype.png" alt="Gartner Hype Cycle">
-</div>
-
-<div class="image-container-fixed">
-<!-- ![width:100%](nft-search-trends.png) -->
-<img src="nft-search-trends.png" alt="NFT Search Trends">
-</div>
-
-</div>
-</div>
-
----
-
-# NFTの歴史と具体的事例1：バブル
-
-<div class="two-columns">
-<div class="left-column">
-
-### バブルのピークと崩壊
-- **21-22年バブル**: 週10億ドル前後
-- **2022年11月ごろ**: 週1.5億ドル程度まで現象
-- **現在**: 1億ドルにも満たない
-
-</div>
-<div class="right-column">
-
-<div class="image-container-fixed">
-<!-- ![width:100%](nft-trade-volume-by-chain.png) -->
-<img src="nft-trade-volume-by-chain.png" alt="NFT Trade Volume">
-</div>
-
-</div>
-</div>
-
----
-
-# NFTの歴史と具体的事例2：高額NFT
-
-<div class="two-columns">
-<div class="left-column">
-
-### ジャック・ドーシーの初ツイート
-- 落札額：約3.2億円
-- "just setting up my twttr"
-- 現在の価値：ほぼ無価値
-
-### CryptoPunks #5822
-- 最高額：約27億円
-- 2017年無料配布→億単位の取引へ
-- Web3の象徴的存在
-
-</div>
-<div class="right-column">
-
-<div class="image-container-fixed">
-<!-- ![width:100%](jack-dorsey-first-tweet.png) -->
-<img src="jack-dorsey-first-tweet.png" alt="Jack Dorsey Tweet">
-</div>
-
-<div class="image-container-fixed">
-<!-- ![width:100%](cryptopunks-5822.png) -->
-<img src="cryptopunks-5822.png" alt="CryptoPunks">
-</div>
-
-</div>
-</div>
-
----
-
-<!-- _class: chapter-minimal -->
-
-<div class="chapter-number-large">03</div>
-
 # NFTと法律
 
 <div class="chapter-subtitle">法的権利とリスクの理解</div>
@@ -767,26 +631,22 @@ style: |
 <div class="chapter-toc-inline">
 <div class="toc-item-inline">
 <span class="toc-number">01</span>
-<span class="toc-title-small">基礎理解</span>
-</div>
-<div class="toc-item-inline">
-<span class="toc-number">02</span>
-<span class="toc-title-small">現状と歴史</span>
+<span class="toc-title-small">NFTとは何か</span>
 </div>
 <div class="toc-item-inline current">
-<span class="toc-number">03</span>
+<span class="toc-number">02</span>
 <span class="toc-title-small">NFTと法律</span>
 </div>
 <div class="toc-item-inline">
-<span class="toc-number">04</span>
-<span class="toc-title-small">実用と技術</span>
+<span class="toc-number">03</span>
+<span class="toc-title-small">市況と事例</span>
 </div>
 <div class="toc-item-inline">
-<span class="toc-number">05</span>
+<span class="toc-number">04</span>
 <span class="toc-title-small">余談</span>
 </div>
 <div class="toc-item-inline">
-<span class="toc-number">06</span>
+<span class="toc-number">05</span>
 <span class="toc-title-small">WS</span>
 </div>
 </div>
@@ -869,36 +729,123 @@ style: |
 
 <!-- _class: chapter-minimal -->
 
-<div class="chapter-number-large">04</div>
+<div class="chapter-number-large">03</div>
 
-# 実用と技術
+# 市況と事例
 
-<div class="chapter-subtitle">NFTの実用性と技術概要</div>
+<div class="chapter-subtitle">NFTの現状、歴史、実用事例</div>
 
 <div class="chapter-toc-inline">
 <div class="toc-item-inline">
 <span class="toc-number">01</span>
-<span class="toc-title-small">基礎理解</span>
+<span class="toc-title-small">NFTとは何か</span>
 </div>
 <div class="toc-item-inline">
 <span class="toc-number">02</span>
-<span class="toc-title-small">現状と歴史</span>
-</div>
-<div class="toc-item-inline">
-<span class="toc-number">03</span>
 <span class="toc-title-small">NFTと法律</span>
 </div>
 <div class="toc-item-inline current">
-<span class="toc-number">04</span>
-<span class="toc-title-small">実用と技術</span>
+<span class="toc-number">03</span>
+<span class="toc-title-small">市況と事例</span>
 </div>
 <div class="toc-item-inline">
-<span class="toc-number">05</span>
+<span class="toc-number">04</span>
 <span class="toc-title-small">余談</span>
 </div>
 <div class="toc-item-inline">
-<span class="toc-number">06</span>
+<span class="toc-number">05</span>
 <span class="toc-title-small">WS</span>
+</div>
+</div>
+
+---
+
+# NFTの現在地
+
+<div class="two-columns">
+<div class="left-column">
+
+### 現在の位置：**幻滅期**
+
+- ピーク時の過度な期待が崩壊
+- 実用的な価値の模索段階
+- 投機から実用へのシフト
+
+### 検索トレンドも低下
+
+- 2022年1月をピークに90%以上減少
+- 一般的な関心は薄れている
+- しかし技術開発は継続中
+
+</div>
+<div class="right-column">
+
+<div class="image-container-fixed">
+<!-- ![width:100%](gartnar-japan-infra-hype.png) -->
+<img src="gartnar-japan-infra-hype.png" alt="Gartner Hype Cycle">
+</div>
+
+<div class="image-container-fixed">
+<!-- ![width:100%](nft-search-trends.png) -->
+<img src="nft-search-trends.png" alt="NFT Search Trends">
+</div>
+
+</div>
+</div>
+
+---
+
+# NFTの歴史と具体的事例1：バブル
+
+<div class="two-columns">
+<div class="left-column">
+
+### バブルのピークと崩壊
+- **21-22年バブル**: 週10億ドル前後
+- **2022年11月ごろ**: 週1.5億ドル程度まで減少
+- **現在**: 1億ドルにも満たない
+
+</div>
+<div class="right-column">
+
+<div class="image-container-fixed">
+<!-- ![width:100%](nft-trade-volume-by-chain.png) -->
+<img src="nft-trade-volume-by-chain.png" alt="NFT Trade Volume">
+</div>
+
+</div>
+</div>
+
+---
+
+# NFTの歴史と具体的事例2：高額NFT
+
+<div class="two-columns">
+<div class="left-column">
+
+### ジャック・ドーシーの初ツイート
+- 落札額：約3.2億円
+- "just setting up my twttr"
+- 現在の価値：ほぼ無価値
+
+### CryptoPunks #5822
+- 最高額：約27億円
+- 2017年無料配布→億単位の取引へ
+- Web3の象徴的存在
+
+</div>
+<div class="right-column">
+
+<div class="image-container-fixed">
+<!-- ![width:100%](jack-dorsey-first-tweet.png) -->
+<img src="jack-dorsey-first-tweet.png" alt="Jack Dorsey Tweet">
+</div>
+
+<div class="image-container-fixed">
+<!-- ![width:100%](cryptopunks-5822.png) -->
+<img src="cryptopunks-5822.png" alt="CryptoPunks">
+</div>
+
 </div>
 </div>
 
@@ -1006,7 +953,7 @@ style: |
 
 <!-- _class: chapter-minimal -->
 
-<div class="chapter-number-large">05</div>
+<div class="chapter-number-large">04</div>
 
 # 余談
 
@@ -1015,26 +962,22 @@ style: |
 <div class="chapter-toc-inline">
 <div class="toc-item-inline">
 <span class="toc-number">01</span>
-<span class="toc-title-small">基礎理解</span>
+<span class="toc-title-small">NFTとは何か</span>
 </div>
 <div class="toc-item-inline">
 <span class="toc-number">02</span>
-<span class="toc-title-small">現状と歴史</span>
-</div>
-<div class="toc-item-inline">
-<span class="toc-number">03</span>
 <span class="toc-title-small">NFTと法律</span>
 </div>
 <div class="toc-item-inline">
-<span class="toc-number">04</span>
-<span class="toc-title-small">実用と技術</span>
+<span class="toc-number">03</span>
+<span class="toc-title-small">市況と事例</span>
 </div>
 <div class="toc-item-inline current">
-<span class="toc-number">05</span>
+<span class="toc-number">04</span>
 <span class="toc-title-small">余談</span>
 </div>
 <div class="toc-item-inline">
-<span class="toc-number">06</span>
+<span class="toc-number">05</span>
 <span class="toc-title-small">WS</span>
 </div>
 </div>
@@ -1126,7 +1069,7 @@ style: |
 
 ---
 
-# Googleログインの便利さがNFTの良さを奪う
+# おまけ：Googleログインの便利さがNFTの良さを奪う
 
 ### 新たな問題：ウォレットの分離
 - **カストディアルウォレット**: サービス運営企業が代理でウォレットを作成・管理
@@ -1146,7 +1089,7 @@ style: |
 
 <!-- _class: chapter-minimal -->
 
-<div class="chapter-number-large">06</div>
+<div class="chapter-number-large">05</div>
 
 # ワークショップ
 
@@ -1155,26 +1098,22 @@ style: |
 <div class="chapter-toc-inline">
 <div class="toc-item-inline">
 <span class="toc-number">01</span>
-<span class="toc-title-small">基礎理解</span>
+<span class="toc-title-small">NFTとは何か</span>
 </div>
 <div class="toc-item-inline">
 <span class="toc-number">02</span>
-<span class="toc-title-small">現状と歴史</span>
-</div>
-<div class="toc-item-inline">
-<span class="toc-number">03</span>
 <span class="toc-title-small">NFTと法律</span>
 </div>
 <div class="toc-item-inline">
-<span class="toc-number">04</span>
-<span class="toc-title-small">実用と技術</span>
+<span class="toc-number">03</span>
+<span class="toc-title-small">市況と事例</span>
 </div>
 <div class="toc-item-inline">
-<span class="toc-number">05</span>
+<span class="toc-number">04</span>
 <span class="toc-title-small">余談</span>
 </div>
 <div class="toc-item-inline current">
-<span class="toc-number">06</span>
+<span class="toc-number">05</span>
 <span class="toc-title-small">WS</span>
 </div>
 </div>
